@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vietnamese Food</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="shortcut icon" href="https://www.svgrepo.com/show/493408/woman-with-dietary-restrictions.svg" />
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=hGYFcUDfCsR-CaEXizF2tXH3MGmxjgfuYovuRvmHwSe3L1bcmPWRp-S6Qz-C3PWhBXDu0eE7hMKDZs8apLASpbcg1GaD22nWoUZRlFyTERJixNWTzsW9aUQUGrskEsk3ZH5ABnhH7XShb8ckrrRdLxawo4-j1LX70CsoyCXHv9OsCnS8UoEXKr-6TXBIX8oZ" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9zMy5hbWF6b25hd3MuY29tL3NoZWNvZGVzaW8tcHJvZHVjdGlvbi9jaGFsbGVuZ2Vfc3VibWlzc2lvbnMvZmlsZXMvMDAxLzQ1Ni83OTgvb3JpZ2luYWwvaW5kZXgxLmh0bWw_MTY3NjIxNDA3Mg"/>
+    <style>
+        html {
+    background: #CCD6A6;
+    width: 100%;
+}
+
+body {
+    display: block;
+    margin: 10px;
+}
+
+.container {
+    display: block;
+    margin: auto;
+    width: 50%;
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+h1 {
+    color: rgb(165, 42, 42);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    color: rgba(165, 42, 42, 0.534);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 520;
+    display: block;
+    margin: auto;
+    width: 80%;
+    text-align: justify;
+}
+
+a {
+    color: rgb(165, 42, 42);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    width: 80%;
+    text-decoration: underline;
+}
+
+button {
+    background-color: #AA5656;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: lighter;
+    display: block;
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.footer {
+    color: gray;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>
+        Vietnam Vegan Rice Rolls
+    </h1>
+    <h2>
+        Bánh cuốn chay
+    </h2>
+    <img
+        src="https://images.food52.com/kGJHjpIcqxMSOrOfzxaM2r_i9Ug=/1200x675/65d94dd2-1509-4e86-9f82-02bc2190de45--Vegan-Banh-Cuon-F52Website.jpg"
+        alt="Banhcuonchay"
+    />
+    <br>
+    <p>
+        <strong>Bánh cuốn</strong>, Vietnamese steamed rice rolls, are usually filled with crumbled meat. Traditionally, to make these flat rice noodles, you secure a piece of cloth to a pot.
+        <br>
+        <br>
+        The batter is then added to the cloth and steamed until it’s fully cooked, which takes just a minute or two. A special flat wooden spatula is used to lift the noodle, then it’s then stuffed with the savory filling and rolled into a little log.
+        <br>
+        <br>
+        These rolls are at their best served with fresh mint and Thai basil, crunchy mung bean sprouts, and fried shallots, and julienned carrot and cucumber.
+        <br>
+        <br>
+        To make <strong>nuoc cham chay (vegan Vietnamese dipping sauce)</strong>, simply combine these ingredients to taste: freshly squeezed lime juice, granulated sugar or maple syrup, minced fresh chiles or red pepper flakes.
+    </p>
+    <br>
+    <a
+        href="https://food52.com/recipes/87317-best-vegan-banh-cuon-recipe"
+        target="_blank"
+        class="learn-more"
+    >
+        Learn more on Food52
+    </a>
+    <br>
+    <button class="findout">
+        👉 Find out more Vietnamese food
+    </button>
+    <script>
+        function findout() {
+            let firstName = prompt("What is your first name?");
+            let email = prompt("What is your email?");
+            let country = prompt("Where are you from?");
+            
+            alert("Thank you for your interest, " + firstName + "! We will send you more information about Vietnamese food to " + email + " soon! 😻");
+        }
+
+            let button = document.querySelector("button");
+            button.addEventListener("click", findout);
+    </script>
+    <br>
+    <p class="footer">
+        Food recommendations by Jayce 😺
+        </a>
+    </p>
+    </div>
+</body>
+</html>
